@@ -20,7 +20,7 @@ void DDA(int x1, int y1, int x2, int y2) {
     x = x1, y = y1;
     
     for (int i = 0; i <= steps; i++) {
-        putpixel(round(x), round(y), RED);
+        putpixel(round(x), round(y), WHITE);
         x += xi;
         y += yi;
         delay(10); // Delay to visualize the drawing
