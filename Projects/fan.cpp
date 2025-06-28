@@ -35,7 +35,7 @@ int main() {
     int fanCenterX = getmaxx() / 2; // set the initial position near the center of the screen
     int fanCenterY = 120;  
     int fanSpeed = 5;
-    int angle = 0;       // Blade angular position
+    int angle = 0;       // Blade angular position(in degrees)
     bool rotating = false; 
 
     while (true) {
