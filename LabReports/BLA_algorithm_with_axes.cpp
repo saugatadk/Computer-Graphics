@@ -64,6 +64,7 @@ int main() {
                 p += 2 * (dy - dx);
             }
             drawPixelCartesian(x, y, WHITE);
+            cout << "(" <<x << ", " << y << ")" << endl;
             delay(10);
         }
     } else {
@@ -80,6 +81,7 @@ int main() {
                 p += 2 * (dx - dy);
             }
             drawPixelCartesian(x, y, WHITE);
+            cout << "(" <<x << ", " << y << ")" << endl;
             delay(10); 
         }
     }
